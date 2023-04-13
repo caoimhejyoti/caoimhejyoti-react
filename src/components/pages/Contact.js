@@ -11,7 +11,7 @@ export default function Contact() {
     const { input, value } = e.target;
 
     // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    return
+    return(
       if (input === "firstName"){
        setFirstName(value)
       }else if (input === "lastName"){
@@ -21,7 +21,7 @@ export default function Contact() {
       }else{
         setLastName(value)
       }
-         
+    )     
   };
 
   const handleFormSubmit = (e) => {
