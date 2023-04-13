@@ -11,17 +11,16 @@ export default function Contact() {
     const { input, value } = e.target;
 
     // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    return(
-      if (input === "firstName"){
-       setFirstName(value)
-      }else if (input === "lastName"){
-        setLastName(value)
-      }else if (input === "email"){
-        setEmail(value)
-      }else{
-        setLastName(value)
-      }
-    )     
+
+    if (input === "firstName") {
+      return setFirstName(value);
+    } else if (input === "lastName") {
+      return setLastName(value);
+    } else if (input === "email") {
+      return setEmail(value);
+    } else {
+      return setMessage(value);
+    }
   };
 
   const handleFormSubmit = (e) => {
@@ -73,7 +72,7 @@ export default function Contact() {
         </div>
         <div className="row g-3 ">
           <input
-            aria-rowspan= {5}
+            // aria-rowspan={5}
             value={message}
             name="message"
             onChange={handleInputChange}
