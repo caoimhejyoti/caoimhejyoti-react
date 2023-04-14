@@ -11,7 +11,7 @@ const logoStyle = {
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav row  align-items-center">
-      <li className="nav-item col ">
+      <li className="navigation nav-item col ">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
@@ -25,7 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item col ">
+      <li className="navigation nav-item col ">
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -39,7 +39,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item col-6 ">
+      <li className=" nav-item col-6 ">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
@@ -54,7 +54,7 @@ function Navigation({ currentPage, handlePageChange }) {
           <img style={logoStyle} src={logo} alt="CaoimheJyoti logo" />
         </a>
       </li>
-      <li className="nav-item col">
+      <li className="navigation nav-item col">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -68,7 +68,7 @@ function Navigation({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item col">
+      <li className="navigation nav-item col">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
