@@ -78,6 +78,10 @@ h3 {
   font-family: var(--secondaryFont);
   font-size: 1.5rem;
   padding: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 li {
@@ -88,12 +92,21 @@ li {
 p {
   font-family: var(--secondaryFont);
   padding: 10px 0px;
-  font-size: 1.5vw;
+  font-size: 1rem;
+  text-align: center;
 }
 
 body{
   background-color: var(--background);
   font-family: var(--secondaryFont);
   color: var(--background);
+  
 }
 
+.hero{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
