@@ -38,53 +38,57 @@ export default function Contact() {
   };
 
   return (
-    <div className="container d-flex justify-content-center">
-      <div className="row g-3">
-        <div className="row g-3 ">
-          <input
-            value={firstName}
-            name="firstName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="First Name"
-            className="form-control"
-          />
-        </div>
-        <div className="row g-3 ">
-          <input
-            value={lastName}
-            name="lastName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Last Name"
-            className="form-control"
-          />
-        </div>
-        <div className="row g-3 ">
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Email Address"
-            className="form-control"
-          />
-        </div>
-        <div className="row g-3 ">
-          <input
-            // aria-rowspan={5}
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="Message"
-            className="form-control"
-          />
-        </div>
-        <div className="col-md-12 d-flex justify-content-center">
-          <button type="button" onClick={handleFormSubmit}>
-            Submit
-          </button>
+    <div>
+      <h1 className="myh1">Get in touch!</h1>
+      <p>I am always happy to chat, answer any questions, debate what the best doughnut filling is (jam, always jam). So go ahead and get in touch!</p>
+      <div className="container d-flex justify-content-center">
+        <div className="row g-3">
+          <div className="row g-3 ">
+            <input
+              value={firstName}
+              name="firstName"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="First Name"
+              className="form-control"
+            />
+          </div>
+          <div className="row g-3 ">
+            <input
+              value={lastName}
+              name="lastName"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Last Name"
+              className="form-control"
+            />
+          </div>
+          <div className="row g-3 ">
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Email Address"
+              className="form-control"
+            />
+          </div>
+          <div className="row g-3 ">
+            <input
+              // aria-rowspan={5}
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="Message"
+              className="form-control"
+            />
+          </div>
+          <div className="col-md-12 d-flex justify-content-center">
+            <button type="button" onClick={handleFormSubmit}>
+              Submit
+            </button>
+          </div>
         </div>
       </div>
     </div>
