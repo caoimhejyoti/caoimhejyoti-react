@@ -97,7 +97,7 @@ p {
 }
 
 body{
-  background-color: var(--background);
+  background-color: var(--navy);
   font-family: var(--secondaryFont);
   color: var(--background);
   

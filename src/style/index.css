@@ -26,6 +26,7 @@ body {
   min-height: 100%;
   line-height: 1;
   font-family: sans-serif;
+  /* background-color: var(--navy); */
 }
 
 /* h1,
