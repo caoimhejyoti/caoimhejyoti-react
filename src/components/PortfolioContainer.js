@@ -7,13 +7,23 @@ import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
+const contentWrap = {
+  paddingBottom: "2.5rem",
+};
+const footerMaster = {
+  position: "absolute",
+  bottom: 0,
+  width: "100%",
+  height: "2.5rem",
+};
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("About");
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <About/>;
+    if (currentPage === "Home") {
+      return <About />;
     }
     if (currentPage === "About") {
       return <About />;
@@ -31,14 +41,18 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
-      <Footer/>
+      <div style={contentWrap}>
+        {/* We are passing the currentPage from state and the function to update it */}
+        <Navigation
+          currentPage={currentPage}
+          handlePageChange={handlePageChange}
+        />
+        {/* Here we are calling the renderPage method which will return a component  */}
+        {renderPage()}
+      </div>
+      <div style={footerMaster}>
+        <Footer/>
+      </div>
     </div>
   );
 }
