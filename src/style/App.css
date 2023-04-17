@@ -76,7 +76,8 @@ h4 {
 
 li {
   font-family: var(--secondaryFont);
-  font-size: 1.rem;
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
 p {

@@ -43,24 +43,24 @@ export default function Resume() {
           <h2>Back-end Experience</h2>
           <p></p>
         </div>
-        {/* <div className="resume-card">
+        <div className="resume-card">
           <h2>Languages</h2>
           <ul>
-          <li>HTML 5<li>
-          <li>CSS 3<li>
-          <li>JavaScript<li>
-          <li>MySQL<li>
-          <li>Sequalize<li>
-          <li>MongoDB<li>
-          <li>NodeJS<li>
-          <li>Express<li>
-          <li>npm<li>
-          <li>React<li>
-          <li>Git<li>
-          <li>GitHub<li>
-          <li>GitHub<li>
-          
-        </div> */}
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Sequalize</li>
+            <li>MongoDB</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>npm</li>
+            <li>React</li>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

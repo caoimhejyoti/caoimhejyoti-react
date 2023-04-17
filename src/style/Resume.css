@@ -9,8 +9,8 @@
 }
   
 .resume-card {  
-    position: relative;
-    display: flex;
+    /* position: relative; */
+    display: grid;
     /* align-items: flex-end; */
     overflow: hidden;
     margin: 1rem;
