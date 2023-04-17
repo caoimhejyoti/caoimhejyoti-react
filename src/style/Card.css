@@ -1,9 +1,40 @@
+:root {
+  --highlight: #ffb20f;
+  --background: #f9f5ff;
+  --main-colour:#01463c;
+  --contrast-colour:  #af1b3f;
+  --main-marg: 100px;
+  /* future developments: fix this resolve to make life easier! */
+  --primaryFont:'Rock Salt', cursive;
+  --secondaryFont:'Josefin Sans', sans-serif;
+}
+
+
 .card {  
   position: relative;
   display: flex;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   overflow: hidden;
+  margin: 1rem;
   padding: 1rem;
   width: 33%;
   text-align: center;
+}
+
+.card-button {
+  background-color: var(--main-colour);
+  border: none;
+  color: var(--background);
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: var(--secondaryFont);
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.card-button:hover{
+  color: var(--highlight);
 }

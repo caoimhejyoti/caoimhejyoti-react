@@ -4,6 +4,7 @@ import "./../../style/Card.css";
 const PortfolioCardStyle = {
   display: "flex",
   flexWrap: "wrap",
+  justifyContent: "center",
 };
 
 export default function PortfolioCards() {
@@ -11,38 +12,55 @@ export default function PortfolioCards() {
     {
       title: "Buddy Up",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/buddy-up",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/buddy-up",
+      deployment: "Deployment",
+      deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
     {
       title: "Pumping Party Planner",
+      img: "",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/pumping-party-planner",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/pumping-party-planner",
+      deployment: "Deployment",
+      deploymentLink: "https://caoimhejyoti.github.io/pumping-party-planner/",
     },
     {
       title: "Soicial Network API",
+      img: "",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/social-network-api",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/social-network-api",
+      deployment: "No Deployment - please follow github instructions",
+      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
     {
       title: "Coding with Caoimhe",
+      img: "",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/coding-with-caoimhe",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/coding-with-caoimhe",
+      deployment: "Deployment",
+      deploymentLink: "https://coding-with-caoimhe.herokuapp.com/",
     },
     {
       title: "Team Profile Creator",
+      img: "",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/team-profile-creator",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/team-profile-creator",
+      deployment: "No Deployment - please follow github instructions",
+      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
     {
       title: "E-Commerce Platform",
+      img: "",
       copy: "TBC",
-      button: "GitHub Repository",
-      link: "https://github.com/caoimhejyoti/e-commerce-platform",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/e-commerce-platform",
+      deployment: "No Deployment - please follow github instructions",
+      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
   ];
 
@@ -50,8 +68,18 @@ export default function PortfolioCards() {
     return (
       <div className="card" key={index}>
         <h2 className="card-title">{cards.title}</h2>
+        <img
+          className="card-img"
+          src={cards.image}
+          alt={`Screen shot of ${cards.title}`}
+        />
         <p className="card-text">{cards.copy}</p>
-        <button href={cards.link}>{cards.button}</button>
+        <a href={cards.githubLink} target="blank" className="card-button">
+          {cards.github}
+        </a>
+        <a href={cards.deploymentLink} target="blank" className="card-button">
+          {cards.deployment}
+        </a>
       </div>
     );
   });
