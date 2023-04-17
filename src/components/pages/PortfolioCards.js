@@ -1,5 +1,11 @@
 import React from "react";
 import "./../../style/Card.css";
+import buddyUpImg from "../../assets/img/portfolio-img/buddy-up-screenshot.png";
+import PPPImg from "../../assets/img/portfolio-img/ppp-screenshot.png";
+import socialImg from "../../assets/img/portfolio-img/social-media-api-screenshot.png";
+import codingWCaoimheImg from "../../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png";
+import teamProfileImg from "../../assets/img/portfolio-img/team-profile-creator-screenshot.png";
+import eCommerceImg from "../../assets/img/portfolio-img/e-commerce-platform-screenshot.png";
 
 const PortfolioCardStyle = {
   display: "flex",
@@ -11,7 +17,7 @@ export default function PortfolioCards() {
   const cards = [
     {
       title: "Buddy Up",
-      img: "./../../assets/img/portfolio-img/buddy-up-screenshot.png",
+      img: buddyUpImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/buddy-up",
@@ -20,7 +26,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Pumping Party Planner",
-      img: "./../../assets/img/portfolio-img/ppp-screenshot.png",
+      img: PPPImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/pumping-party-planner",
@@ -29,7 +35,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Soicial Network API",
-      img: "./../../assets/img/portfolio-img/social-media-api-screenshot.png",
+      img: socialImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/social-network-api",
@@ -38,7 +44,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Coding with Caoimhe",
-      img: "./../../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png",
+      img: codingWCaoimheImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/coding-with-caoimhe",
@@ -47,7 +53,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Team Profile Creator",
-      img: "./../../assets/img/portfolio-img/team-profile-creator-screenshot.png",
+      img: teamProfileImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/team-profile-creator",
@@ -56,7 +62,7 @@ export default function PortfolioCards() {
     },
     {
       title: "E-Commerce Platform",
-      img: "./../../assets/img/portfolio-img/e-commerce-platform-screenshot.png",
+      img: eCommerceImg,
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/e-commerce-platform",
