@@ -37,11 +37,11 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="navigation nav-item col ">
         <a
-          href="#home"
-          onClick={() => handlePageChange("Home")}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          href="#About"
+          onClick={() => handlePageChange("About")}
+          // This is a conditional (ternary) operator that checks to see if the current page is "About"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === "Home" ? "nav-link active" : "nav-link "}
+          className={currentPage === "About" ? "nav-link active" : "nav-link "}
         >
           <img style={logoStyle} src={logo} alt="CaoimheJyoti logo" />
         </a>
