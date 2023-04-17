@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/caoimhejyoti-react/static/css/main.1162ba39.css",
-    "main.js": "/caoimhejyoti-react/static/js/main.b8460603.js",
+    "main.js": "/caoimhejyoti-react/static/js/main.c9c7a47c.js",
     "static/media/laugh - Edited.png": "/caoimhejyoti-react/static/media/laugh - Edited.36a5dab23e7889051fd5.png",
     "static/media/caoimheJyoti-logo.png": "/caoimhejyoti-react/static/media/caoimheJyoti-logo.2a2dd853277a22f24bb0.png",
     "index.html": "/caoimhejyoti-react/index.html",
     "main.1162ba39.css.map": "/caoimhejyoti-react/static/css/main.1162ba39.css.map",
-    "main.b8460603.js.map": "/caoimhejyoti-react/static/js/main.b8460603.js.map"
+    "main.c9c7a47c.js.map": "/caoimhejyoti-react/static/js/main.c9c7a47c.js.map"
   },
   "entrypoints": [
     "static/css/main.1162ba39.css",
-    "static/js/main.b8460603.js"
+    "static/js/main.c9c7a47c.js"
   ]
 }
