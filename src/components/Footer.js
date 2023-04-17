@@ -5,7 +5,7 @@ import instagram from "./../assets/img/logos/Instagram_Glyph_White.png";
 
 export default function Footer() {
   return (
-    <div className="footer fixed-bottom">
+    <div className="footer ">
       <a
         href="https://github.com/caoimhejyoti"
         target="blank"
