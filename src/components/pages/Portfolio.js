@@ -8,6 +8,7 @@ export default function Portfolio() {
     <div>
       <div>
         <h1 className="myh1">Portfolio</h1>
+        <p>Want to see an example of my work? <br/> Here is your chance. </p>
       </div>
       <div>
         <PortfolioCards className = "container"  />

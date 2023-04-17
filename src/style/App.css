@@ -31,7 +31,7 @@ h1.myh1 {
 
 h2  {
   /* font-family: var(--secondaryFont); */
-  font-size: 4vw;
+  /* font-size: rem; */
   padding: var(--main-marg) 0px;
   text-align: center;
 }
@@ -82,7 +82,7 @@ li {
 p {
   font-family: var(--secondaryFont);
   padding: 10px 0px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   color: var(--main-colour);
 }

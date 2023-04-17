@@ -30,14 +30,14 @@ body {
   /* background-color: var(--navy); */
 }
 
-h1,
+/* h1,
 h2,
 h3,
-/* h4, */
+h4,
 h5,
 h6 {
   font-size: 100%;
-}
+} */
 
 input,
 select,
