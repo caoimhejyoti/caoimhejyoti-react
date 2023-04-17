@@ -11,6 +11,7 @@ export default function PortfolioCards() {
   const cards = [
     {
       title: "Buddy Up",
+      img: "./../../assets/img/portfolio-img/buddy-up-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/buddy-up",
@@ -19,7 +20,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Pumping Party Planner",
-      img: "",
+      img: "./../../assets/img/portfolio-img/ppp-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/pumping-party-planner",
@@ -28,7 +29,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Soicial Network API",
-      img: "",
+      img: "./../../assets/img/portfolio-img/social-media-api-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/social-network-api",
@@ -37,7 +38,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Coding with Caoimhe",
-      img: "",
+      img: "./../../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/coding-with-caoimhe",
@@ -46,7 +47,7 @@ export default function PortfolioCards() {
     },
     {
       title: "Team Profile Creator",
-      img: "",
+      img: "./../../assets/img/portfolio-img/team-profile-creator-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/team-profile-creator",
@@ -55,7 +56,7 @@ export default function PortfolioCards() {
     },
     {
       title: "E-Commerce Platform",
-      img: "",
+      img: "./../../assets/img/portfolio-img/e-commerce-platform-screenshot.png",
       copy: "TBC",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/e-commerce-platform",
@@ -70,7 +71,7 @@ export default function PortfolioCards() {
         <h2 className="card-title">{cards.title}</h2>
         <img
           className="card-img"
-          src={cards.image}
+          src={cards.img}
           alt={`Screen shot of ${cards.title}`}
         />
         <p className="card-text">{cards.copy}</p>
