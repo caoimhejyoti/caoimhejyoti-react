@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TextField } from "@mui/material";
-import "./../../style/Contact.css";
+import { ThemeProvider } from "@mui/material/styles";
+import inputTheme from "./../../style/theme";
 
 export default function EmailInput() {
   function validateEmail(email) {
@@ -16,28 +17,37 @@ export default function EmailInput() {
 
   if (!validateEmail(email)) {
     return (
+      <ThemeProvider theme={inputTheme}>
+        <TextField
+          error
+          fullWidth
+          margin="normal"
+          id="outlined-basic email-input"
+          className="input-field"
+          label="Invalid Email"
+          variant="outlined"
+          size="small"
+          value={email}
+          onChange={handleFormChange}
+        />
+      </ThemeProvider>
+    );
+  }
+
+  return (
+    <ThemeProvider theme={inputTheme}>
       <TextField
-        error
-        className="input-field"
+        required
+        fullWidth
+        margin="normal"
         id="outlined-basic email-input"
-        label="Invalid Email"
+        className="input-field"
+        label="Email"
         variant="outlined"
         size="small"
         value={email}
         onChange={handleFormChange}
       />
-    );
-  }
-
-  return (
-    <TextField
-      id="outlined-basic email-input"
-      className="input-field"
-      label="Email"
-      variant="outlined"
-      size="small"
-      value={email}
-      onChange={handleFormChange}
-    />
+    </ThemeProvider>
   );
 }
