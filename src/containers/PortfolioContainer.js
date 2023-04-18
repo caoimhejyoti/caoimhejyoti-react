@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import Navigation from "./../layout/Navigation";
+import Footer from "./../layout/Footer";
 // import Home from './pages/Home';
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
+import Resume from "../pages/Resume";
+import Contact from "../pages/Contact";
 
 const contentWrap = {
   paddingBottom: "2.5rem",

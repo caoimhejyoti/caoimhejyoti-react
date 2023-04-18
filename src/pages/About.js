@@ -1,5 +1,5 @@
 import React from "react";
-import laugh from "../../assets/img/laugh - Edited.png";
+import laugh from "../assets/img/laugh - Edited.png";
 
 const laughStyle = {
   // backgroundColour: "white",
@@ -21,7 +21,7 @@ export default function About() {
           Hey! <br />I am Caoimhe Jyoti
         </h1>
       </div>
-      <div></div>
+      {/* <div></div> */}
     </div>
   );
 }

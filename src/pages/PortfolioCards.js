@@ -1,11 +1,11 @@
 import React from "react";
-import "./../../style/Card.css";
-import buddyUpImg from "../../assets/img/portfolio-img/buddy-up-screenshot.png";
-import PPPImg from "../../assets/img/portfolio-img/ppp-screenshot.png";
-import socialImg from "../../assets/img/portfolio-img/social-media-api-screenshot.png";
-import codingWCaoimheImg from "../../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png";
-import teamProfileImg from "../../assets/img/portfolio-img/team-profile-creator-screenshot.png";
-import eCommerceImg from "../../assets/img/portfolio-img/e-commerce-platform-screenshot.png";
+import "./../style/Card.css";
+import buddyUpImg from "../assets/img/portfolio-img/buddy-up-screenshot.png";
+import PPPImg from "../assets/img/portfolio-img/ppp-screenshot.png";
+import socialImg from "../assets/img/portfolio-img/social-media-api-screenshot.png";
+import codingWCaoimheImg from "../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png";
+import teamProfileImg from "../assets/img/portfolio-img/team-profile-creator-screenshot.png";
+import eCommerceImg from "../assets/img/portfolio-img/e-commerce-platform-screenshot.png";
 
 const PortfolioCardStyle = {
   display: "flex",

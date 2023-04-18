@@ -1,5 +1,5 @@
 import React from "react";
-import "./../../style/Resume.css";
+import "./../style/Resume.css";
 
 // const fileAddress = `https://localhost:3000/resume_test5.pdf`;
 
