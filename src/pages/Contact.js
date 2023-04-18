@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
-import "./../style/Contact.css";
 import NameInput from "./../components/Contact/NameInput";
 import EmailInput from "./../components/Contact/emailInput";
 import MessageInput from "./../components/Contact/messagelnput";
