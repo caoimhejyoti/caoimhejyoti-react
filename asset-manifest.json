@@ -1,15 +1,23 @@
 {
-  "files": {
-    "main.css": "/caoimhejyoti-react/static/css/main.1162ba39.css",
-    "main.js": "/caoimhejyoti-react/static/js/main.c9c7a47c.js",
-    "static/media/laugh - Edited.png": "/caoimhejyoti-react/static/media/laugh - Edited.36a5dab23e7889051fd5.png",
-    "static/media/caoimheJyoti-logo.png": "/caoimhejyoti-react/static/media/caoimheJyoti-logo.2a2dd853277a22f24bb0.png",
-    "index.html": "/caoimhejyoti-react/index.html",
-    "main.1162ba39.css.map": "/caoimhejyoti-react/static/css/main.1162ba39.css.map",
-    "main.c9c7a47c.js.map": "/caoimhejyoti-react/static/js/main.c9c7a47c.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.1162ba39.css",
-    "static/js/main.c9c7a47c.js"
-  ]
+  "main.css": "/caoimhejyoti-react/static/css/main.a7d22161.chunk.css",
+  "main.js": "/caoimhejyoti-react/static/js/main.0ec4e1b8.chunk.js",
+  "main.js.map": "/caoimhejyoti-react/static/js/main.0ec4e1b8.chunk.js.map",
+  "static/css/1.c3687ae1.chunk.css": "/caoimhejyoti-react/static/css/1.c3687ae1.chunk.css",
+  "static/js/1.ad23510e.chunk.js": "/caoimhejyoti-react/static/js/1.ad23510e.chunk.js",
+  "static/js/1.ad23510e.chunk.js.map": "/caoimhejyoti-react/static/js/1.ad23510e.chunk.js.map",
+  "runtime~main.js": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js",
+  "runtime~main.js.map": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js.map",
+  "static/media/caoimheJyoti-logo.png": "/caoimhejyoti-react/static/media/caoimheJyoti-logo.92b57d5d.png",
+  "static/media/laugh - Edited.png": "/caoimhejyoti-react/static/media/laugh - Edited.e53e1364.png",
+  "static/media/buddy-up-screenshot.png": "/caoimhejyoti-react/static/media/buddy-up-screenshot.8dd4588a.png",
+  "static/media/ppp-screenshot.png": "/caoimhejyoti-react/static/media/ppp-screenshot.7c3747f8.png",
+  "static/media/social-media-api-screenshot.png": "/caoimhejyoti-react/static/media/social-media-api-screenshot.c004fdb9.png",
+  "static/media/coding-with-caoimhe-screenshot.png": "/caoimhejyoti-react/static/media/coding-with-caoimhe-screenshot.bcde74f1.png",
+  "static/media/team-profile-creator-screenshot.png": "/caoimhejyoti-react/static/media/team-profile-creator-screenshot.df6d0fd4.png",
+  "static/media/e-commerce-platform-screenshot.png": "/caoimhejyoti-react/static/media/e-commerce-platform-screenshot.21812652.png",
+  "static/css/main.a7d22161.chunk.css.map": "/caoimhejyoti-react/static/css/main.a7d22161.chunk.css.map",
+  "static/css/1.c3687ae1.chunk.css.map": "/caoimhejyoti-react/static/css/1.c3687ae1.chunk.css.map",
+  "index.html": "/caoimhejyoti-react/index.html",
+  "precache-manifest.eea3fc32bc33425f1cdee6f0008246df.js": "/caoimhejyoti-react/precache-manifest.eea3fc32bc33425f1cdee6f0008246df.js",
+  "service-worker.js": "/caoimhejyoti-react/service-worker.js"
 }
