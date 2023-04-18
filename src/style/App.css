@@ -15,7 +15,7 @@ html {
 }
 
 body{
-  background-color: var(--contrast-colour);
+  background-color: var(--background);
   font-family: var(--secondaryFont);
   color: var(--background);
   }
@@ -102,7 +102,7 @@ p {
   bottom: 0;
   width: 100%;
   font-family: var(--secondaryFont);
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
   padding: 1.5rem;
   /* margin: 1rem 0rem 0rem; */
   display: flex;
