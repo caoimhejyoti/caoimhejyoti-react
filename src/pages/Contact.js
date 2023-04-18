@@ -1,47 +1,47 @@
 import React, { useState } from "react";
-import { Col, Container, Form, Row,  } from 'react-bootstrap';
+import { Col, Container, Form, Row } from "react-bootstrap";
 import "./../style/Contact.css";
-import NameInput from "../components/Contact/nameInput";
-import EmailInput from  "./../components/Contact/emailInput";
-import MessageInput from "./../components/Contact/messageInput";
+import NameInput from "./../components/Contact/NameInput";
+import EmailInput from "./../components/Contact/emailInput";
+import MessageInput from "./../components/Contact/messagelnput";
 import SubmitButton from "./../components/Contact/submitButton";
 
 export default function Contact() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [firstName, setFirstName] = useState("");
+  // const [lastName, setLastName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { input, value } = e.target;
+  // const handleInputChange = (e) => {
+  //   // Getting the value and name of the input which triggered the change
+  //   const { input, value } = e.target;
 
-    // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
+  //   // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
 
-    if (input === "firstName") {
-      return setFirstName(value);
-    } else if (input === "lastName") {
-      return setLastName(value);
-    } else if (input === "email") {
-      return setEmail(value);
-    } else {
-      return setMessage(value);
-    }
-  };
+  //   if (input === "firstName") {
+  //     return setFirstName(value);
+  //   } else if (input === "lastName") {
+  //     return setLastName(value);
+  //   } else if (input === "email") {
+  //     return setEmail(value);
+  //   } else {
+  //     return setMessage(value);
+  //   }
+  // };
 
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
-    e.preventDefault();
+  // const handleFormSubmit = (e) => {
+  //   // Preventing the default behavior of the form submit (which is to refresh the page)
+  //   e.preventDefault();
 
-    // Alert the user their first and last name, clear the inputs
-    alert(
-      `Thank you ${firstName} ${lastName} for getting in touch. I will respond as soon as I have a fresh cup of coffee!`
-    );
-    setFirstName("");
-    setLastName("");
-    setEmail("");
-    setMessage("");
-  };
+  //   // Alert the user their first and last name, clear the inputs
+  //   alert(
+  //     `Thank you ${firstName} ${lastName} for getting in touch. I will respond as soon as I have a fresh cup of coffee!`
+  //   );
+  //   setFirstName("");
+  //   setLastName("");
+  //   setEmail("");
+  //   setMessage("");
+  // };
 
   return (
     <div>
@@ -55,19 +55,19 @@ export default function Contact() {
         <Row className=" justify-content-center">
           <Form className="">
             <Col className="form-input">
-              <NameInput/>
+              {/* <NameInput /> */}
             </Col>
             <Col className="form-input">
-              <EmailInput/>
+              <EmailInput />
             </Col>
             <Col className="form-input">
-              <MessageInput/>
+              <MessageInput />
             </Col>
             <Col className="form-input">
-              <SubmitButton/>
+              <SubmitButton />
             </Col>
           </Form>
-            {/* <div className="">
+          {/* <div className="">
               <input
                 value={lastName}
                 name="lastName"
