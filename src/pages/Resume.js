@@ -81,36 +81,20 @@ const backEndCard = (
 
 export default function Resume() {
   return (
-    <div>
-      <Container className="fluid">
-        {/* <div> */}
+    // <div>
+      <Container className="fluid ">
+      <Row className=" justify-content-center">
         <h1 className="myh1">Resume</h1>
-        {/* </div> */}
-        {/* <div> */}
         <p>Interested in a full resume? Download it here.</p>
-        {/* <Row > */}
-        <Button className=" justify-content-center" />
-        {/* </Row> */}
-        {/* </div> */}
-      </Container>
-      <Container className="fluid">
+        <Button className=" " />
+        </Row>
+      {/* </Container>
+      <Container className="fluid"> */}
         <Row className=" justify-content-center">
-          {/* <div className="resume-container"> */}
-          <div className="resume-card">
-            {/* <h2>Front-end Experience</h2>
-          <p></p> */}
-            {frontEndCard}
-          </div>
-          <div className="resume-card">
-            {/* <h2>Back-end Experience</h2>
-          <p></p> */}
-            {backEndCard}
-          </div>
-          {/* <div className="resume-card">{languagesCard}</div> */}
-          {/* </div>
-           */}
+          <div className="resume-card">{frontEndCard}</div>
+          <div className="resume-card">{backEndCard}</div>
         </Row>
       </Container>
-    </div>
+    // </div>
   );
 }
