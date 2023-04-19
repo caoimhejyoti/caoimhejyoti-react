@@ -50,39 +50,22 @@ const backEndCard = (
   </React.Fragment>
 );
 
-// const languagesCard = (
-//   <React.Fragment>
-//     <ThemeProvider theme={inputTheme}>
-//       <CardContent>
-//         <CardHeader title="Languages" />
-//         <ListItem>
-//           <ListItemText>
-//             {bull} HTML 5 {bull} CSS 3 {bull} JavaScript {bull} MySQL {bull}{" "}
-//             MongoDB
-//             {bull} React {bull} NodeJS {bull} Express {bull} Git {bull} GitHub
-//             {bull}
-//             {bull}
-//           </ListItemText>
-//         </ListItem>
-//       </CardContent>
-//     </ThemeProvider>
-//   </React.Fragment>
-// );
-
 export default function Resume() {
   return (
-    // <div>
     <Container className="fluid ">
       <Row className=" justify-content-center">
         <h1 className="myh1">Resume</h1>
+        {/* <p>Interested in a full resume? Download it here.</p>
+        <Button /> */}
+      </Row>
+      <Row className=" justify-content-center">
+        <Col className="card">{frontEndCard}</Col>
+        <Col className="card">{backEndCard}</Col>
+      </Row>
+      <Row className=" justify-content-center m-2">
         <p>Interested in a full resume? Download it here.</p>
         <Button />
       </Row>
-      <Row className=" justify-content-center">
-        <div className="resume-card">{frontEndCard}</div>
-        <div className="resume-card">{backEndCard}</div>
-      </Row>
     </Container>
-    // </div>
   );
 }
