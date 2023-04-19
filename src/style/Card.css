@@ -39,3 +39,12 @@
 .card-button:hover{
   color: var(--highlight);
 }
+
+.card-img{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-stack{
+  margin: 100;
+}

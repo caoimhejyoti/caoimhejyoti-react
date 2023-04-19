@@ -1,5 +1,16 @@
 import React from "react";
 import "./../style/Card.css";
+import { CardImg, Col, Container, Form, Row, Stack } from "react-bootstrap";
+import {
+  Button,
+  CardHeader,
+  CardContent,
+  Typography,
+  CardMedia,
+} from "@mui/material";
+import { ThemeProvider } from "@mui/material/styles";
+import inputTheme from "./../style/theme";
+// import Button from "../components/portfolioButtons";
 import buddyUpImg from "../assets/img/portfolio-img/buddy-up-screenshot.png";
 import PPPImg from "../assets/img/portfolio-img/ppp-screenshot.png";
 import socialImg from "../assets/img/portfolio-img/social-media-api-screenshot.png";
@@ -14,11 +25,11 @@ const PortfolioCardStyle = {
 };
 
 export default function PortfolioCards() {
-  const cards = [
+  const cardsArr = [
     {
       title: "Buddy Up",
       img: buddyUpImg,
-      copy: "TBC",
+      copy: "Buddy Up",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/buddy-up",
       deployment: "Deployment",
@@ -71,23 +82,63 @@ export default function PortfolioCards() {
     },
   ];
 
-  const cardDetail = cards.map((cards, index) => {
+  const cardDetail = cardsArr.map((cardsArr, index) => {
+    const hasDeployment =
+      cardsArr.deployment ===
+      "No Deployment - please follow github instructions";
     return (
-      <div className="card" key={index}>
-        <h2 className="card-title">{cards.title}</h2>
-        <img
-          className="card-img"
-          src={cards.img}
-          alt={`Screen shot of ${cards.title}`}
-        />
-        <p className="card-text">{cards.copy}</p>
-        <a href={cards.githubLink} target="blank" className="card-button">
-          {cards.github}
-        </a>
-        <a href={cards.deploymentLink} target="blank" className="card-button">
-          {cards.deployment}
-        </a>
-      </div>
+      <React.Fragment>
+        <ThemeProvider theme={inputTheme}>
+          <CardContent className="card">
+            <CardHeader title={`${cardsArr.title}`} />
+            <CardContent className="flex">
+              <Row className="justify-content-center ">
+                <Col className="d-flex justify-content-center ">
+                  <CardMedia
+                    sx={{ width: "25vw" }}
+                    component="img"
+                    alt={`Screen shot of ${cardsArr.title}`}
+                    image={`${cardsArr.img}`}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
+                  <Typography paragraphy>{cardsArr.copy}</Typography>
+                </Col>
+              </Row>
+              <Row>
+                <Stack spacing={2}>
+                  <Button
+                    variant="contained"
+                    id="submit-button"
+                    className="primary m-2 card-button"
+                    href={`${cardsArr.githubLink}`}
+                    target="blank"
+                  >
+                    {cardsArr.github}
+                  </Button>
+                  {hasDeployment ? (
+                    <Typography paragraphy>
+                      No Deployment - please follow GitHub instructions
+                    </Typography>
+                  ) : (
+                    <Button
+                      variant="contained"
+                      id="submit-button"
+                      className="primary m-2 card-button"
+                      href={`${cardsArr.deploymentLink}`}
+                      target="blank"
+                    >
+                      {cardsArr.deployment}
+                    </Button>
+                  )}
+                </Stack>
+              </Row>
+            </CardContent>
+          </CardContent>
+        </ThemeProvider>
+      </React.Fragment>
     );
   });
   return <div style={PortfolioCardStyle}>{cardDetail}</div>;
