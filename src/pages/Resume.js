@@ -1,6 +1,6 @@
 import React from "react";
 import "./../style/Resume.css";
-import { Col, Container, Form, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { Box, CardHeader, CardContent, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import inputTheme from "./../style/theme";

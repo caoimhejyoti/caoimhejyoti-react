@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 
 import github from "./../assets/img/logos/GitHub-Mark-Light-120px-plus.png";

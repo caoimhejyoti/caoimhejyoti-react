@@ -1,13 +1,9 @@
 import React from "react";
 import "./../style/Card.css";
-import { Col, Row, Stack, Card, Container } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import {
   Button,
-  CardHeader,
-  CardContent,
   Typography,
-  CardMedia,
-  Box,
 } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 // PROJECT IMGS:
