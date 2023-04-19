@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/caoimhejyoti-react/precache-manifest.de26a067eb797a15fa2b61ed8e3e152f.js"
+  "/caoimhejyoti-react/precache-manifest.e824af9e85b3070133feeacde02c51b1.js"
 );
 
 workbox.clientsClaim();

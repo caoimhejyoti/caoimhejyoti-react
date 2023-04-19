@@ -1,10 +1,10 @@
 {
-  "main.css": "/caoimhejyoti-react/static/css/main.19230c5a.chunk.css",
-  "main.js": "/caoimhejyoti-react/static/js/main.ef1dc97a.chunk.js",
-  "main.js.map": "/caoimhejyoti-react/static/js/main.ef1dc97a.chunk.js.map",
+  "main.css": "/caoimhejyoti-react/static/css/main.e8597a22.chunk.css",
+  "main.js": "/caoimhejyoti-react/static/js/main.9df4d55f.chunk.js",
+  "main.js.map": "/caoimhejyoti-react/static/js/main.9df4d55f.chunk.js.map",
   "static/css/1.c3687ae1.chunk.css": "/caoimhejyoti-react/static/css/1.c3687ae1.chunk.css",
-  "static/js/1.ad23510e.chunk.js": "/caoimhejyoti-react/static/js/1.ad23510e.chunk.js",
-  "static/js/1.ad23510e.chunk.js.map": "/caoimhejyoti-react/static/js/1.ad23510e.chunk.js.map",
+  "static/js/1.d74723ec.chunk.js": "/caoimhejyoti-react/static/js/1.d74723ec.chunk.js",
+  "static/js/1.d74723ec.chunk.js.map": "/caoimhejyoti-react/static/js/1.d74723ec.chunk.js.map",
   "runtime~main.js": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js",
   "runtime~main.js.map": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js.map",
   "static/media/caoimheJyoti-logo.png": "/caoimhejyoti-react/static/media/caoimheJyoti-logo.92b57d5d.png",
@@ -16,8 +16,8 @@
   "static/media/team-profile-creator-screenshot.png": "/caoimhejyoti-react/static/media/team-profile-creator-screenshot.df6d0fd4.png",
   "static/media/e-commerce-platform-screenshot.png": "/caoimhejyoti-react/static/media/e-commerce-platform-screenshot.21812652.png",
   "static/css/1.c3687ae1.chunk.css.map": "/caoimhejyoti-react/static/css/1.c3687ae1.chunk.css.map",
-  "static/css/main.19230c5a.chunk.css.map": "/caoimhejyoti-react/static/css/main.19230c5a.chunk.css.map",
+  "static/css/main.e8597a22.chunk.css.map": "/caoimhejyoti-react/static/css/main.e8597a22.chunk.css.map",
   "index.html": "/caoimhejyoti-react/index.html",
-  "precache-manifest.de26a067eb797a15fa2b61ed8e3e152f.js": "/caoimhejyoti-react/precache-manifest.de26a067eb797a15fa2b61ed8e3e152f.js",
+  "precache-manifest.e824af9e85b3070133feeacde02c51b1.js": "/caoimhejyoti-react/precache-manifest.e824af9e85b3070133feeacde02c51b1.js",
   "service-worker.js": "/caoimhejyoti-react/service-worker.js"
 }
