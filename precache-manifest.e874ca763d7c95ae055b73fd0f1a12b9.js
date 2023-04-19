@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5ca8779d45fcac94bf70",
-    "url": "/caoimhejyoti-react/static/css/main.9eb18f7c.chunk.css"
+    "revision": "1cec71b1f131578b8a9c",
+    "url": "/caoimhejyoti-react/static/css/main.a1f9f58c.chunk.css"
   },
   {
-    "revision": "5ca8779d45fcac94bf70",
-    "url": "/caoimhejyoti-react/static/js/main.5ca8779d.chunk.js"
+    "revision": "1cec71b1f131578b8a9c",
+    "url": "/caoimhejyoti-react/static/js/main.1cec71b1.chunk.js"
   },
   {
     "revision": "ad23510e29ca5b353c35",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/caoimhejyoti-react/static/media/e-commerce-platform-screenshot.21812652.png"
   },
   {
-    "revision": "c049169d8630cb7562c7cdfff1607033",
+    "revision": "1baccef241a2513093d93add19110b01",
     "url": "/caoimhejyoti-react/index.html"
   }
 ];
