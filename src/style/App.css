@@ -94,14 +94,11 @@ p {
 }
 
 .footer {
-  /*position: absolute; FIXME: cannot scroll with this.... */
-  
   bottom: 0;
   width: 100%;
   font-family: var(--secondaryFont);
   font-size: 1.5rem;
   padding: 1.5rem;
-  /* margin: 1rem 0rem 0rem; */
   display: flex;
   align-items: center;
   justify-content:space-between; 
@@ -113,5 +110,4 @@ p {
 .footer-img{
   height: 3rem;
   display: flex;
-  /* justify-content: center; */
 }
