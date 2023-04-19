@@ -1,6 +1,6 @@
 import React from "react";
 import "./../style/Card.css";
-import { CardImg, Col, Container, Form, Row, Stack } from "react-bootstrap";
+import { Col, Row, Stack } from "react-bootstrap";
 import {
   Button,
   CardHeader,
@@ -9,8 +9,8 @@ import {
   CardMedia,
 } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
+// PROJECT IMGS:
 import inputTheme from "./../style/theme";
-// import Button from "../components/portfolioButtons";
 import buddyUpImg from "../assets/img/portfolio-img/buddy-up-screenshot.png";
 import PPPImg from "../assets/img/portfolio-img/ppp-screenshot.png";
 import socialImg from "../assets/img/portfolio-img/social-media-api-screenshot.png";
@@ -29,7 +29,8 @@ export default function PortfolioCards() {
     {
       title: "Buddy Up",
       img: buddyUpImg,
-      copy: "Buddy Up",
+      copy:
+        "Buddy Up is a meeting platform developed to provide users a place to meet up with others for activities",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/buddy-up",
       deployment: "Deployment",
@@ -38,54 +39,57 @@ export default function PortfolioCards() {
     {
       title: "Pumping Party Planner",
       img: PPPImg,
-      copy: "TBC",
+      copy:
+        "Pumping Party Planner was created as my first group project on my Coding Bootcamp course. This web app allows users to plan a cocktail party with a personally selected drinks menu and music playlist",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/pumping-party-planner",
       deployment: "Deployment",
       deploymentLink: "https://caoimhejyoti.github.io/pumping-party-planner/",
     },
     {
-      title: "Soicial Network API",
-      img: socialImg,
-      copy: "TBC",
-      github: "GitHub Repository",
-      githubLink: "https://github.com/caoimhejyoti/social-network-api",
-      deployment: "No Deployment - please follow github instructions",
-      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
-    },
-    {
       title: "Coding with Caoimhe",
       img: codingWCaoimheImg,
-      copy: "TBC",
+      copy:
+        "I created this CMS-style blog about coding for developers. The purpose for the project was to create the app rather than the blog content.",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/coding-with-caoimhe",
       deployment: "Deployment",
       deploymentLink: "https://coding-with-caoimhe.herokuapp.com/",
     },
     {
+      title: "Soicial Network API",
+      img: socialImg,
+      copy:
+        "The purpose of this project was to create an API for the use within a social network. I worked with monogoDB to create this API. ",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/social-network-api",
+      deployment: "No Deployment - please follow github instructions",
+    },
+    {
       title: "Team Profile Creator",
       img: teamProfileImg,
-      copy: "TBC",
+      copy:
+        "The Team Profile Creator is a Node.js command line application. This app asks users relevant questions, and then creates a HTML file with the team profile information.",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/team-profile-creator",
       deployment: "No Deployment - please follow github instructions",
-      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
     {
       title: "E-Commerce Platform",
       img: eCommerceImg,
-      copy: "TBC",
+      copy:
+        "Operating from your CLI and Insomnia, this project focused on creating the backend for an E-Commerce platform. This project was created using an express.js API and Sequelize.",
       github: "GitHub Repository",
       githubLink: "https://github.com/caoimhejyoti/e-commerce-platform",
       deployment: "No Deployment - please follow github instructions",
-      //   deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
   ];
 
   const cardDetail = cardsArr.map((cardsArr, index) => {
-    const hasDeployment =
+    const hasNoDeployment =
       cardsArr.deployment ===
       "No Deployment - please follow github instructions";
+
     return (
       <React.Fragment>
         <ThemeProvider theme={inputTheme}>
@@ -118,7 +122,7 @@ export default function PortfolioCards() {
                   >
                     {cardsArr.github}
                   </Button>
-                  {hasDeployment ? (
+                  {hasNoDeployment ? (
                     <Typography paragraphy>
                       No Deployment - please follow GitHub instructions
                     </Typography>
