@@ -15,8 +15,6 @@ html {
 }
 
 
-
-
 h1.myh1 {
   color: var var(--main-colour);
   font-family: var(--primaryFont);
@@ -26,9 +24,9 @@ h1.myh1 {
 }
 
 h2  {
-  /* font-family: var(--secondaryFont); */
+  font-family: var(--secondaryFont);
   /* font-size: rem; */
-  padding: var(--main-marg) 0px;
+  /* padding: var(--main-marg) 0px; */
   text-align: center;
 }
 
