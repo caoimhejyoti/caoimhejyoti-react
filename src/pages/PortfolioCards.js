@@ -1,19 +1,16 @@
 import React from "react";
 import "./../style/Card.css";
 import { Card } from "react-bootstrap";
-import {
-  Button,
-  Typography,
-} from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 // PROJECT IMGS:
 import inputTheme from "./../style/theme";
-import buddyUpImg from "../assets/img/portfolio-img/buddy-up-screenshot.png";
-import PPPImg from "../assets/img/portfolio-img/ppp-screenshot.png";
-import socialImg from "../assets/img/portfolio-img/social-media-api-screenshot.png";
-import codingWCaoimheImg from "../assets/img/portfolio-img/coding-with-caoimhe-screenshot.png";
-import teamProfileImg from "../assets/img/portfolio-img/team-profile-creator-screenshot.png";
-import eCommerceImg from "../assets/img/portfolio-img/e-commerce-platform-screenshot.png";
+import buddyUpImg from "../assets/img/portfolio-img/buddy-up.png";
+import PPPImg from "../assets/img/portfolio-img/pumping-party-planner.png";
+import socialImg from "../assets/img/portfolio-img/social-network-api.png";
+import codingWCaoimheImg from "../assets/img/portfolio-img/coding-with-caoimhe.png";
+import teamProfileImg from "../assets/img/portfolio-img/team-profile-creator.png";
+import eCommerceImg from "../assets/img/portfolio-img/e-commerce-platform.png";
 
 const PortfolioCardStyle = {
   display: "inline-flex",
