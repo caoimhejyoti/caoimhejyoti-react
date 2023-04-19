@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Nav, Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import github from "./../assets/img/logos/GitHub-Mark-Light-120px-plus.png";
 import linkedin from "./../assets/img/logos/In-White-128-┬«@2x.png";
