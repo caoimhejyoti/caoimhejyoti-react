@@ -4,8 +4,13 @@ import NameInput from "./../components/Contact/NameInput";
 import EmailInput from "./../components/Contact/emailInput";
 import MessageInput from "./../components/Contact/messagelnput";
 import SubmitButton from "./../components/Contact/submitButton";
+import {
+  Button,
+} from "@mui/material";
 
 export default function Contact() {
+  const hasValue = !NameInput && !EmailInput && !MessageInput === "error"
+
   return (
     <div>
       <h1 className="myh1">Get in touch!</h1>
@@ -27,7 +32,10 @@ export default function Contact() {
               <MessageInput />
             </Col>
             <Col className="form-input">
-              <SubmitButton />
+              {hasValue ? (<SubmitButton />) 
+              : (<Button variant="contained" className="primary" disabled>
+              Not ready yet...
+            </Button>)}
             </Col>
           </Form>
         </Row>
