@@ -1,17 +1,7 @@
 import React from "react";
 import "./../style/Resume.css";
 import { Col, Container, Form, Row } from "react-bootstrap";
-import {
-  Box,
-  Card,
-  CardHeader,
-  CardContent,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  ListSubheader,
-  Typography,
-} from "@mui/material";
+import { Box, CardHeader, CardContent, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 import inputTheme from "./../style/theme";
 import Button from "../components/resumeButtons";
@@ -82,19 +72,17 @@ const backEndCard = (
 export default function Resume() {
   return (
     // <div>
-      <Container className="fluid ">
+    <Container className="fluid ">
       <Row className=" justify-content-center">
         <h1 className="myh1">Resume</h1>
         <p>Interested in a full resume? Download it here.</p>
-        <Button className=" " />
-        </Row>
-      {/* </Container>
-      <Container className="fluid"> */}
-        <Row className=" justify-content-center">
-          <div className="resume-card">{frontEndCard}</div>
-          <div className="resume-card">{backEndCard}</div>
-        </Row>
-      </Container>
+        <Button />
+      </Row>
+      <Row className=" justify-content-center">
+        <div className="resume-card">{frontEndCard}</div>
+        <div className="resume-card">{backEndCard}</div>
+      </Row>
+    </Container>
     // </div>
   );
 }
