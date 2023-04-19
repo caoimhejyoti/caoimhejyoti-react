@@ -8,20 +8,7 @@
     --secondaryFont:'Josefin Sans', sans-serif;
 }
   
-.resume-card {  
-    /* position: relative; */
-    display: grid;
-    /* align-items: flex-end; */
-    overflow: hidden;
-    margin: 1rem;
-    padding: 1rem;
-    width: 33%;
-    text-align: center;
-  }  
-
-
-/* .resume-container{
-display: "flex";
-flex-wrap: "wrap";
-justify-content: "center";
-} */
+  
+  .resume-button:hover{
+    color: var(--highlight);
+  }
