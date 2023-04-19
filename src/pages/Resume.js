@@ -19,7 +19,7 @@ const frontEndCard = (
   <React.Fragment>
     <ThemeProvider theme={inputTheme}>
       <CardContent>
-        <CardHeader title="Front End" />
+        <CardHeader title="Front End" className="text-center" />
         {/* <ListItem> */}
         <CardContent>
           <Typography paragraph>
@@ -38,7 +38,7 @@ const backEndCard = (
   <React.Fragment>
     <ThemeProvider theme={inputTheme}>
       <CardContent>
-        <CardHeader title="Back End" />
+        <CardHeader title="Back End" className="text-center" />
         <CardContent>
           <Typography paragraph>
             {bull} NodeJS {bull} Express {bull} MySQL {bull} MongoDB {bull} API{" "}
