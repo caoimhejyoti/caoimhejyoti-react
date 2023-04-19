@@ -42,7 +42,7 @@ h4 {
 }
 
 .navigation {
-  /* font-family: var(--secondaryFont); */
+  font-family: var(--secondaryFont);
   font-size: 2rem;
   padding: 50px 0px;
   display: flex;
@@ -58,14 +58,24 @@ h4 {
 }
 
 .navigation-active{
-  background: var(--main-colour);
-  color: var(--background);
-  border-radius: 50rem;
+  /* background: var(--main-colour); */
+  color: var(--contrast-colour); 
+  font-family: var(--secondaryFont);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
   padding: 1.5rem;
   text-decoration: none;
 }
 .navigation-active:hover{
   color: var(--highlight);
+}
+
+.toggle{
+  background-color: var(--main-colour);
+  color: var(--background);
 }
 
 li {
