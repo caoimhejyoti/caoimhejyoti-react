@@ -14,14 +14,15 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
+/* body{
   background-color: var(--background);
   font-family: var(--secondaryFont);
   color: var(--background);
-  }
+  } */
 
 
 h1.myh1 {
+  color: var var(--main-colour);
   font-family: var(--primaryFont);
   font-size: 3.5rem;
   padding: var(--main-marg);
