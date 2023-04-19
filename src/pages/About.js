@@ -14,12 +14,12 @@ export default function About() {
   return (
     <div>
       <div className="hero">
-        <div style={bubbleStyle}>
-          <img style={laughStyle} src={laugh} alt="CaoimheJyoti laughing" />
-        </div>
         <h1 className="myh1">
           Hey! <br />I am Caoimhe Jyoti
         </h1>
+        <div style={bubbleStyle}>
+          <img style={laughStyle} src={laugh} alt="CaoimheJyoti laughing" />
+        </div>
       </div>
       {/* <div></div> */}
     </div>
