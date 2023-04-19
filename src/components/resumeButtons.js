@@ -6,7 +6,7 @@ import inputTheme from "../style/theme";
 export default function BasicButtons() {
   return (
     <ThemeProvider theme={inputTheme}>
-      <Button variant="contained" id="submit-button" className="primary" href="https://github.com/caoimhejyoti/caoimhejyoti-react/raw/main/src/assets/downloads/resume_test5.pdf" target="blank">
+      <Button variant="contained" id="submit-button" className="primary card-button" href="https://github.com/caoimhejyoti/caoimhejyoti-react/raw/main/src/assets/downloads/resume_test5.pdf" target="blank">
         Download
       </Button>
     </ThemeProvider>
