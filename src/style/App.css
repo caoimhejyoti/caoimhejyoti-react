@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Josefin+Sans:wght@600&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Rock+Salt&display=swap);
+/* @import url(https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Josefin+Sans:wght@600&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300;1,500;1,800&family=Rock+Salt&display=swap); */
+/* @import url("../assets/img/blobs/blob_1_green.png"); */
 
 :root {
   --highlight: #ffb20f;
@@ -16,7 +17,14 @@ html {
 
 
 h1.myh1 {
-  color: var var(--main-colour);
+  color: var(--main-colour);
+  font-family: var(--primaryFont);
+  font-size: 3.5rem;
+  padding: var(--main-marg);
+  text-align: center;
+}
+#myh1 {
+  color: var(--contrast-colour);
   font-family: var(--primaryFont);
   font-size: 3.5rem;
   padding: var(--main-marg);
@@ -94,6 +102,17 @@ p {
   justify-content: space-around;
   flex-wrap: wrap;
 
+}
+
+
+.blob{
+  background-image: url("../assets/img/blobs/blob_1_green.png") ;
+  background-repeat: round;
+}
+.eyes{
+  background-image: url("../assets/img/eyes-large.png") ;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer {
