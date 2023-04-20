@@ -4,6 +4,7 @@ import inputTheme from "./../../style/theme";
 import {
   Button,
   Dialog,
+  DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
@@ -48,6 +49,11 @@ export default function BasicButtons() {
             There is only one me so please give me a week to reply before
             sending another message.
           </DialogContentText>
+          <DialogActions>
+            <Button onClick={handleClose} autoFocus>
+              Close
+            </Button>
+          </DialogActions>
         </DialogContent>
       </Dialog>
     </ThemeProvider>
