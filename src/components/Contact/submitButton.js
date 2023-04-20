@@ -4,7 +4,6 @@ import inputTheme from "./../../style/theme";
 import {
   Button,
   Dialog,
-  // DialogActions,
   DialogContent,
   DialogContentText,
   DialogTitle,
@@ -50,7 +49,6 @@ export default function BasicButtons() {
             sending another message.
           </DialogContentText>
         </DialogContent>
-        {/* <DialogActions></DialogActions> */}
       </Dialog>
     </ThemeProvider>
   );

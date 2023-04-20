@@ -55,8 +55,6 @@ export default function Resume() {
     <Container className="fluid ">
       <Row className=" justify-content-center">
         <h1 className="myh1">Resume</h1>
-        {/* <p>Interested in a full resume? Download it here.</p>
-        <Button /> */}
       </Row>
       <Row className=" justify-content-center">
         <Col className="card">{frontEndCard}</Col>
