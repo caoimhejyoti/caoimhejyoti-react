@@ -104,7 +104,7 @@ export default function PortfolioCards() {
                   id="submit-button"
                   className="primary m-2 card-button"
                   href={`${cardsArr.githubLink}`}
-                  target="blank"
+                  target="_blank"
                 >
                   {cardsArr.github}
                 </Button>
@@ -118,7 +118,7 @@ export default function PortfolioCards() {
                     id="submit-button"
                     className="primary m-2 card-button"
                     href={`${cardsArr.deploymentLink}`}
-                    target="blank"
+                    target="_blank"
                   >
                     {cardsArr.deployment}
                   </Button>
@@ -128,129 +128,7 @@ export default function PortfolioCards() {
           </div>
         </ThemeProvider>
       </div>
-      // NOTE: VERSION 2
-      // <React.Fragment>
-      //   <ThemeProvider theme={inputTheme}>
-      //     <Stack spacing={2} className="card">
-      //       <Row className="justify-content-center ">
-      //         {/* <Row> */}
-      //         <Col>
-      //           <CardHeader title={`${cardsArr.title}`} />
-      //         </Col>
-      //       </Row>
-      //       {/* <CardContent className="flex"> */}
-      //       <Row className="justify-content-center ">
-      //         <Col className="d-flex justify-content-center ">
-      //           <CardMedia
-      //             className="mb-3"
-      //             sx={{ width: "25vw" }}
-      //             component="img"
-      //             alt={`Screen shot of ${cardsArr.title}`}
-      //             image={`${cardsArr.img}`}
-      //           />
-      //         </Col>
-      //         {/* </Row>
-      //         <Row> */}
-      //         <Col className="align-content-center">
-      //           <Typography className=" justify-content-start m-3" paragraph>
-      //             {cardsArr.copy}
-      //           </Typography>
-      //         </Col>
-      //         {/* </Row>
-      //         <Row> */}
-      //         <Stack direction="row"  spacing={2}>
-      //           <Button
-      //             variant="contained"
-      //             id="submit-button"
-      //             className="primary m-2 card-button"
-      //             href={`${cardsArr.githubLink}`}
-      //             target="blank"
-      //           >
-      //             {cardsArr.github}
-      //           </Button>
-      //           {hasNoDeployment ? (
-      //             <Typography paragraphy>
-      //               No Deployment - please follow GitHub instructions
-      //             </Typography>
-      //           ) : (
-      //             <Button
-      //               variant="contained"
-      //               id="submit-button"
-      //               className="primary m-2 card-button"
-      //               href={`${cardsArr.deploymentLink}`}
-      //               target="blank"
-      //             >
-      //               {cardsArr.deployment}
-      //             </Button>
-      //           )}
-      //         </Stack>
-      //       </Row>
-      //     </Stack>
-      //     {/* </CardContent> */}
-      //   </ThemeProvider>
-      // </React.Fragment>
-      // NOTE: ORIGINAL VERSION
-      // <React.Fragment>
-      //   <ThemeProvider theme={inputTheme}>
-      //     <CardContent className="card">
-      //       <Row>
-      //         <Col>
-      //       <CardHeader title={`${cardsArr.title}`} />
-      //       </Col>
-      //       </Row>
-      //       {/* <CardContent className="flex"> */}
-      //         <Row className="justify-content-center ">
-      //           <Col className="d-flex justify-content-center ">
-      //             <CardMedia
-      //             className="mb-3"
-      //               sx={{ width: "25vw" }}
-      //               component="img"
-      //               alt={`Screen shot of ${cardsArr.title}`}
-      //               image={`${cardsArr.img}`}
-      //             />
-      //           </Col>
-      //         </Row>
-      //         <Row>
-      //           <Col>
-      //             <Typography className="m-3" paragraphy>
-      //               {cardsArr.copy}
-      //             </Typography>
-      //           </Col>
-      //         </Row>
-      //         <Row>
-      //           <Stack spacing={2}>
-      //             <Button
-      //               variant="contained"
-      //               id="submit-button"
-      //               className="primary m-2 card-button"
-      //               href={`${cardsArr.githubLink}`}
-      //               target="blank"
-      //             >
-      //               {cardsArr.github}
-      //             </Button>
-      //             {hasNoDeployment ? (
-      //               <Typography paragraphy>
-      //                 No Deployment - please follow GitHub instructions
-      //               </Typography>
-      //             ) : (
-      //               <Button
-      //                 variant="contained"
-      //                 id="submit-button"
-      //                 className="primary m-2 card-button"
-      //                 href={`${cardsArr.deploymentLink}`}
-      //                 target="blank"
-      //               >
-      //                 {cardsArr.deployment}
-      //               </Button>
-      //             )}
-      //           </Stack>
-      //         </Row>
-      //       </CardContent>
-      //     {/* </CardContent> */}
-      //   </ThemeProvider>
-      // </React.Fragment>
     );
   });
   return <div style={PortfolioCardStyle}>{cardDetail}</div>;
-  // return <div style={PortfolioCardStyle}>{cardDetail}</div>;
 }
