@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 import { ThemeProvider } from "@mui/material/styles";
 import inputTheme from "./../../style/theme";
 
-export default function NameInput() {
+export default function NameInput({ setNameIsValid }) {
   function validateName(name) {
     const regex = /^[a-zA-Z\s]*$/;
     return regex.test(String(name));
@@ -12,7 +12,7 @@ export default function NameInput() {
   const [name, setName] = useState("");
   const handleFormChange = (event) => {
     setName(event.target.value);
-    validateName(name);
+    setNameIsValid(validateName(name));
   };
 
   if (!validateName(name)) {

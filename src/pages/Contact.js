@@ -7,9 +7,10 @@ import SubmitButton from "./../components/Contact/submitButton";
 import { Button } from "@mui/material";
 
 export default function Contact() {
+  const [nameIsValid, setNameIsValid] = useState(false);
   const [emailIsValid, setEmailIsValid] = useState(false);
-  const formIsValid = emailIsValid === true;
-  // const hasNoValue = !NameInput && !EmailInput && !MessageInput === "notValid";
+  const [messageIsValid, setMessageIsValid] = useState(false);
+  const formIsValid = nameIsValid && emailIsValid && messageIsValid === true;
 
   return (
     <div>
@@ -23,13 +24,13 @@ export default function Contact() {
         <Row className=" justify-content-center">
           <Form className="">
             <Col className="form-input">
-              <NameInput />
+              <NameInput setNameIsValid={setNameIsValid} />
             </Col>
             <Col className="form-input">
               <EmailInput setEmailIsValid={setEmailIsValid} />
             </Col>
             <Col className="form-input">
-              <MessageInput />
+              <MessageInput setMessageIsValid={setMessageIsValid} />
             </Col>
             <Col className="form-input">
               {formIsValid ? (

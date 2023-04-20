@@ -3,10 +3,11 @@ import TextField from "@mui/material/TextField";
 import { ThemeProvider } from "@mui/material/styles";
 import inputTheme from "./../../style/theme";
 
-export default function MessageInput() {
+export default function MessageInput({ setMessageIsValid }) {
   const [message, setMessage] = useState("");
   const handleFormChange = (event) => {
     setMessage(event.target.value);
+    setMessageIsValid(true);
   };
 
   {
