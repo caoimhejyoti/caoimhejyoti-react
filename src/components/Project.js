@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 import { Button, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 // PROJECT IMGS:
-import inputTheme from "./../style/theme";
+import inputTheme from "../style/theme";
 import buddyUpImg from "../assets/img/portfolio-img/buddy-up.png";
 import PPPImg from "../assets/img/portfolio-img/pumping-party-planner.png";
 import socialImg from "../assets/img/portfolio-img/social-network-api.png";
@@ -12,13 +12,13 @@ import codingWCaoimheImg from "../assets/img/portfolio-img/coding-with-caoimhe.p
 import teamProfileImg from "../assets/img/portfolio-img/team-profile-creator.png";
 import eCommerceImg from "../assets/img/portfolio-img/e-commerce-platform.png";
 
-const PortfolioCardStyle = {
+const ProjectStyle = {
   display: "inline-flex",
   flexWrap: "wrap",
   justifyContent: "center",
 };
 
-export default function PortfolioCards() {
+export default function Projects() {
   const cardsArr = [
     {
       title: "Buddy Up",
@@ -130,5 +130,5 @@ export default function PortfolioCards() {
       </div>
     );
   });
-  return <div style={PortfolioCardStyle}>{cardDetail}</div>;
+  return <div style={ProjectStyle}>{cardDetail}</div>;
 }

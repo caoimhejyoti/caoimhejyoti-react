@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioCards from "./PortfolioCards";
+import Project from "../components/Project";
 
 export default function Portfolio() {
   return (
@@ -11,7 +11,7 @@ export default function Portfolio() {
         </p>
       </div>
       <div>
-        <PortfolioCards className="container" />
+        <Project className="container" />
       </div>
     </div>
   );
