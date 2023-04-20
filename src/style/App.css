@@ -25,13 +25,10 @@ h1.myh1 {
 
 h2  {
   font-family: var(--secondaryFont);
-  /* font-size: rem; */
-  /* padding: var(--main-marg) 0px; */
   text-align: center;
 }
 
 h3 {
-  /* font-family: var(--secondaryFont); */
   font-size: 2vw;
   padding: 50px 0px;
 }
@@ -58,7 +55,6 @@ h4 {
 }
 
 .navigation-active{
-  /* background: var(--main-colour); */
   color: var(--contrast-colour); 
   font-family: var(--secondaryFont);
   font-size: 2rem;
@@ -74,8 +70,7 @@ h4 {
 }
 
 .toggle{
-  background-color: var(--main-colour);
-  color: var(--background);
+  background-color: var(--contrast-colour);
 }
 
 li {
