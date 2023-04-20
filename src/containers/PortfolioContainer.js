@@ -10,6 +10,7 @@ const contentWrap = {
   paddingBottom: "2.5rem",
 };
 const footerMaster = {
+  position: "relative",
   bottom: 0,
   height: "2.5rem",
 };
