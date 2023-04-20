@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
 import NameInput from "./../components/Contact/NameInput";
 import EmailInput from "./../components/Contact/emailInput";
@@ -7,7 +7,9 @@ import SubmitButton from "./../components/Contact/submitButton";
 import { Button } from "@mui/material";
 
 export default function Contact() {
-  const hasNoValue = !NameInput && !EmailInput && !MessageInput === "error";
+  const [emailIsValid, setEmailIsValid] = useState(false);
+  const formIsValid = emailIsValid === true;
+  // const hasNoValue = !NameInput && !EmailInput && !MessageInput === "notValid";
 
   return (
     <div>
@@ -24,18 +26,18 @@ export default function Contact() {
               <NameInput />
             </Col>
             <Col className="form-input">
-              <EmailInput />
+              <EmailInput setEmailIsValid={setEmailIsValid} />
             </Col>
             <Col className="form-input">
               <MessageInput />
             </Col>
             <Col className="form-input">
-              {hasNoValue ? (
+              {formIsValid ? (
+                <SubmitButton />
+              ) : (
                 <Button variant="contained" className="primary" disabled>
                   Submit
                 </Button>
-              ) : (
-                <SubmitButton />
               )}
             </Col>
           </Form>
