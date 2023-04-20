@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "@mui/material/styles";
 import inputTheme from "./../style/theme";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assets/img/caoimheJyoti-logo.png";
+import logo from "../assets/img/CaoimheJyoti - logo-v3.png";
 
 const logoStyle = {
   width: "10rem",
