@@ -29,6 +29,7 @@ h1.myh1 {
   font-size: 3.5rem;
   padding: var(--main-marg);
   text-align: center;
+  width: -webkit-fill-available;
 }
 
 h2  {
