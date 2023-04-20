@@ -1,10 +1,10 @@
 {
   "main.css": "/caoimhejyoti-react/static/css/main.fe2de182.chunk.css",
-  "main.js": "/caoimhejyoti-react/static/js/main.97f3f474.chunk.js",
-  "main.js.map": "/caoimhejyoti-react/static/js/main.97f3f474.chunk.js.map",
+  "main.js": "/caoimhejyoti-react/static/js/main.f2ad21b0.chunk.js",
+  "main.js.map": "/caoimhejyoti-react/static/js/main.f2ad21b0.chunk.js.map",
   "static/css/1.f8350266.chunk.css": "/caoimhejyoti-react/static/css/1.f8350266.chunk.css",
-  "static/js/1.8260f203.chunk.js": "/caoimhejyoti-react/static/js/1.8260f203.chunk.js",
-  "static/js/1.8260f203.chunk.js.map": "/caoimhejyoti-react/static/js/1.8260f203.chunk.js.map",
+  "static/js/1.b4801d11.chunk.js": "/caoimhejyoti-react/static/js/1.b4801d11.chunk.js",
+  "static/js/1.b4801d11.chunk.js.map": "/caoimhejyoti-react/static/js/1.b4801d11.chunk.js.map",
   "runtime~main.js": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js",
   "runtime~main.js.map": "/caoimhejyoti-react/static/js/runtime~main.01ba510d.js.map",
   "static/media/CaoimheJyoti - logo-v3.png": "/caoimhejyoti-react/static/media/CaoimheJyoti - logo-v3.2e7720a5.png",
@@ -19,6 +19,6 @@
   "static/css/main.fe2de182.chunk.css.map": "/caoimhejyoti-react/static/css/main.fe2de182.chunk.css.map",
   "static/css/1.f8350266.chunk.css.map": "/caoimhejyoti-react/static/css/1.f8350266.chunk.css.map",
   "index.html": "/caoimhejyoti-react/index.html",
-  "precache-manifest.479bb446906c9d83865fac2685518d04.js": "/caoimhejyoti-react/precache-manifest.479bb446906c9d83865fac2685518d04.js",
+  "precache-manifest.ea8e2845b8c7ac8dc205500bf9fbf832.js": "/caoimhejyoti-react/precache-manifest.ea8e2845b8c7ac8dc205500bf9fbf832.js",
   "service-worker.js": "/caoimhejyoti-react/service-worker.js"
 }
