@@ -12,7 +12,7 @@ export default function BasicButtons() {
         sx={{ width: "25vw" }}
         className="primary m-2 resume-button"
         href="https://github.com/caoimhejyoti/caoimhejyoti-react/raw/main/src/assets/downloads/Caoimhe_Young_Resume.pdf"
-        target="blank"
+        target="_blank"
       >
         Download
       </Button>
