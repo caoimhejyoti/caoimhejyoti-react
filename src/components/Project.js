@@ -5,6 +5,7 @@ import { Button, Typography } from "@mui/material";
 import { ThemeProvider } from "@mui/material/styles";
 // PROJECT IMGS:
 import inputTheme from "../style/theme";
+import outAndAboutImg from "../assets/img/portfolio-img/out-and-about.png";
 import buddyUpImg from "../assets/img/portfolio-img/buddy-up.png";
 import PPPImg from "../assets/img/portfolio-img/pumping-party-planner.png";
 import socialImg from "../assets/img/portfolio-img/social-network-api.png";
@@ -21,12 +22,22 @@ const ProjectStyle = {
 export default function Projects() {
   const cardsArr = [
     {
+      title: "Out and About",
+      img: outAndAboutImg,
+      copy:
+        "Out and About is all about getting outdoors and seeing your local area. Users answer riddles, get quests routes and then go on an adventure. A key goal of this project was to encourage users to exercise and get moving without it being the focus.",
+      github: "GitHub Repository",
+      githubLink: "https://github.com/caoimhejyoti/buddy-up",
+      deployment: "Deployment",
+      deploymentLink: "https://outnabout.herokuapp.com/",
+    },
+    {
       title: "Buddy Up",
       img: buddyUpImg,
       copy:
         "Buddy Up is a meeting platform developed to provide users a place to meet up with others for activities",
       github: "GitHub Repository",
-      githubLink: "https://github.com/caoimhejyoti/buddy-up",
+      githubLink: "https://github.com/caoimhejyoti/out-and-about",
       deployment: "Deployment",
       deploymentLink: "https://buddy-up-project.herokuapp.com/",
     },
