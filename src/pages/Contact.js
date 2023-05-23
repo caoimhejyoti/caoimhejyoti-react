@@ -16,57 +16,34 @@ export default function Contact() {
     <div>
       <h1 className="myh1">Get in touch!</h1>
       <p>
-        I am currently open to work and eager to talk about opportunities with you. 
-        <br></br>
-        If you would like to get in touch with me, please contact me via LinkedIn. 
+        I am always happy to chat, answer any questions, debate the best
+        doughnut filling (jam, always jam). <br></br>So go ahead and get in
+        touch!
       </p>
       <Container className="fluid">
         <Row className=" justify-content-center">
-        <Col>
-          <a
-            href="https://www.linkedin.com/in/caoimhe-young-84b58b61/"
-            target="blank"
-            className="footer-img"
-          >
-            <img src={linkedin} alt="Linkedin logo" />
-          </a>
-        </Col>
+          <Form className="">
+            <Col className="form-input">
+              <NameInput setNameIsValid={setNameIsValid} />
+            </Col>
+            <Col className="form-input">
+              <EmailInput setEmailIsValid={setEmailIsValid} />
+            </Col>
+            <Col className="form-input">
+              <MessageInput setMessageIsValid={setMessageIsValid} />
+            </Col>
+            <Col className="form-input">
+              {formIsValid ? (
+                <SubmitButton />
+              ) : (
+                <Button variant="contained" className="primary" disabled>
+                  Submit
+                </Button>
+              )}
+            </Col>
+          </Form>
         </Row>
       </Container>
     </div>
   );
-  // return (
-  //   <div>
-  //     <h1 className="myh1">Get in touch!</h1>
-  //     <p>
-  //       I am always happy to chat, answer any questions, debate the best
-  //       doughnut filling (jam, always jam). <br></br>So go ahead and get in
-  //       touch!
-  //     </p>
-  //     <Container className="fluid">
-  //       <Row className=" justify-content-center">
-  //         <Form className="">
-  //           <Col className="form-input">
-  //             <NameInput setNameIsValid={setNameIsValid} />
-  //           </Col>
-  //           <Col className="form-input">
-  //             <EmailInput setEmailIsValid={setEmailIsValid} />
-  //           </Col>
-  //           <Col className="form-input">
-  //             <MessageInput setMessageIsValid={setMessageIsValid} />
-  //           </Col>
-  //           <Col className="form-input">
-  //             {formIsValid ? (
-  //               <SubmitButton />
-  //             ) : (
-  //               <Button variant="contained" className="primary" disabled>
-  //                 Submit
-  //               </Button>
-  //             )}
-  //           </Col>
-  //         </Form>
-  //       </Row>
-  //     </Container>
-  //   </div>
-  // );
 }
