@@ -6,7 +6,7 @@ import MessageInput from "./../components/Contact/messagelnput";
 import SubmitButton from "./../components/Contact/submitButton";
 import { Button } from "@mui/material";
 
-import linkedin from "./../assets/img/logos/In-White-128-┬«@2x.png";
+import linkedinBlue from "./../assets/img/logos/In-Blue-128-┬«.png";
 
 export default function Contact() {
   const [nameIsValid, setNameIsValid] = useState(false);
