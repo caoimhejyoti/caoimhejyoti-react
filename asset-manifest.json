@@ -1,7 +1,7 @@
 {
   "main.css": "/caoimhejyoti-react/static/css/main.d00daf65.chunk.css",
-  "main.js": "/caoimhejyoti-react/static/js/main.82d125f2.chunk.js",
-  "main.js.map": "/caoimhejyoti-react/static/js/main.82d125f2.chunk.js.map",
+  "main.js": "/caoimhejyoti-react/static/js/main.7dbb1c3f.chunk.js",
+  "main.js.map": "/caoimhejyoti-react/static/js/main.7dbb1c3f.chunk.js.map",
   "static/css/1.f9d812eb.chunk.css": "/caoimhejyoti-react/static/css/1.f9d812eb.chunk.css",
   "static/js/1.7fcfcf0c.chunk.js": "/caoimhejyoti-react/static/js/1.7fcfcf0c.chunk.js",
   "static/js/1.7fcfcf0c.chunk.js.map": "/caoimhejyoti-react/static/js/1.7fcfcf0c.chunk.js.map",
@@ -19,6 +19,6 @@
   "static/css/main.d00daf65.chunk.css.map": "/caoimhejyoti-react/static/css/main.d00daf65.chunk.css.map",
   "static/css/1.f9d812eb.chunk.css.map": "/caoimhejyoti-react/static/css/1.f9d812eb.chunk.css.map",
   "index.html": "/caoimhejyoti-react/index.html",
-  "precache-manifest.fe887c1cc48774fae36971bdaeec92d4.js": "/caoimhejyoti-react/precache-manifest.fe887c1cc48774fae36971bdaeec92d4.js",
+  "precache-manifest.8fe7bcda862a8eb5bb6ca4f83a6c99a9.js": "/caoimhejyoti-react/precache-manifest.8fe7bcda862a8eb5bb6ca4f83a6c99a9.js",
   "service-worker.js": "/caoimhejyoti-react/service-worker.js"
 }
