@@ -30,9 +30,9 @@ export default function Contact() {
             <a
               href="https://www.linkedin.com/in/caoimhe-young-84b58b61/"
               target="blank"
-              className="footer-img"
+              className="btn-img"
             >
-              <img src={linkedin} alt="Linkedin logo" />
+              <img src={linkedinBlue} alt="Linkedin logo" />
             </a>
           </Col>
         </Row>
