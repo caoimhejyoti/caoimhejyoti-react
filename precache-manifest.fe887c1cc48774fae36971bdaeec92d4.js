@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "f105718cf31143b78396",
-    "url": "/caoimhejyoti-react/static/css/main.871d6178.chunk.css"
+    "revision": "82d125f2d88bdc9ba458",
+    "url": "/caoimhejyoti-react/static/css/main.d00daf65.chunk.css"
   },
   {
-    "revision": "f105718cf31143b78396",
-    "url": "/caoimhejyoti-react/static/js/main.f105718c.chunk.js"
+    "revision": "82d125f2d88bdc9ba458",
+    "url": "/caoimhejyoti-react/static/js/main.82d125f2.chunk.js"
   },
   {
-    "revision": "8b9497e2d187e5be5b03",
-    "url": "/caoimhejyoti-react/static/css/1.d6928f0d.chunk.css"
+    "revision": "7fcfcf0c74df2e80b6ee",
+    "url": "/caoimhejyoti-react/static/css/1.f9d812eb.chunk.css"
   },
   {
-    "revision": "8b9497e2d187e5be5b03",
-    "url": "/caoimhejyoti-react/static/js/1.8b9497e2.chunk.js"
+    "revision": "7fcfcf0c74df2e80b6ee",
+    "url": "/caoimhejyoti-react/static/js/1.7fcfcf0c.chunk.js"
   },
   {
     "revision": "01ba510dc011f1719fd8",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/caoimhejyoti-react/static/media/eyes-large.96479738.png"
   },
   {
-    "revision": "24bb65d84ad9a1a23c4294ddd45d2a8f",
+    "revision": "2c99460debbd98dff51ec7b1a8e071df",
     "url": "/caoimhejyoti-react/index.html"
   }
 ];
