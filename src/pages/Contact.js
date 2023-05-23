@@ -28,7 +28,7 @@ export default function Contact() {
         <Row className=" justify-content-center">
           <Col>
             <a
-              href="https://www.linkedin.com/in/caoimhe-young-84b58b61/"
+              href="https://www.linkedin.com/in/caoimhe-young/"
               target="blank"
               className="btn-img"
             >

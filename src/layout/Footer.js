@@ -20,7 +20,7 @@ export default function Footer() {
         </Col>
         <Col>
           <a
-            href="https://www.linkedin.com/in/caoimhe-young-84b58b61/"
+            href="https://www.linkedin.com/in/caoimhe-young/"
             target="blank"
             className="footer-img"
           >
