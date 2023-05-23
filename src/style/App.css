@@ -137,6 +137,7 @@ p {
   display: flex;
 }
 .btn-img{
-  height: 3rem;
+  height: 5rem;
   display: flex;
+  justify-content: center;
 }
