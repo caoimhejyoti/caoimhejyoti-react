@@ -38,18 +38,6 @@ export default function Contact() {
               <img src={linkedinIcon} alt="Linkedin logo" />
             </a>
           </Col>
-          <Col>
-            <a
-              href="mailto:caoimhejyoti@gmail.com"
-              target="blank"
-              className="btn-img"
-            >
-              <img
-                src={emailIcon}
-                alt="icon of an envelop within a circle. Both are dark green."
-              />
-            </a>
-          </Col>
         </Row>
       </Container>
     </div>
