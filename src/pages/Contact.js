@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Col, Container, Form, Row } from "react-bootstrap";
-import NameInput from "./../components/Contact/NameInput";
+import NameInput from "./../components/Contact/nameInput";
 import EmailInput from "./../components/Contact/emailInput";
 import MessageInput from "./../components/Contact/messagelnput";
 import SubmitButton from "./../components/Contact/submitButton";
 import { Button } from "@mui/material";
 
 import linkedinBlue from "./../assets/img/logos/In-Blue-128-┬«.png";
+import emailIcon from "./../assets/img/icons/email.png";
+import linkedinIcon from "./../assets/img/icons/LinkedIn.png";
 
 export default function Contact() {
   const [nameIsValid, setNameIsValid] = useState(false);
@@ -22,9 +24,10 @@ export default function Contact() {
         you.
         <br></br>
         If you would like to get in touch with me, please contact me via
-        LinkedIn.
+        LinkedIn or email me at{" "}
+        <a href="mailto:caoimhejyoti@gmail.com">caoimhejyoti@gmail.com </a>
       </p>
-      <Container className="fluid">
+      <Container className="fluid justify-content-center">
         <Row className=" justify-content-center">
           <Col>
             <a
@@ -32,7 +35,19 @@ export default function Contact() {
               target="blank"
               className="btn-img"
             >
-              <img src={linkedinBlue} alt="Linkedin logo" />
+              <img src={linkedinIcon} alt="Linkedin logo" />
+            </a>
+          </Col>
+          <Col>
+            <a
+              href="mailto:caoimhejyoti@gmail.com"
+              target="blank"
+              className="btn-img"
+            >
+              <img
+                src={emailIcon}
+                alt="icon of an envelop within a circle. Both are dark green."
+              />
             </a>
           </Col>
         </Row>
