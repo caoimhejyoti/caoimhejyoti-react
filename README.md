@@ -1,6 +1,6 @@
 # CaoimheJyoti
 
-![Alt text](src/assets/img/caoimhejyoti-prototype_v2.png)
+![In front of a dark green backgroud is an image of a desktop computer displaying Caoimhe's portfolio website. Infront of the computer screen, a mobile phone shows a different perspective of the portfolio site.](src/assets/img/caoimhejyoti-prototype_v2.png)
 
 ---
 
