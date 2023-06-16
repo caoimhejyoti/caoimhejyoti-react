@@ -7,6 +7,7 @@ import laugh from "../assets/img/laugh - Edited.png";
 import eyes from "../assets/img/eyes-large.png";
 import blob from "../assets/img/blobs/blob_1_green.png";
 import { Typography } from "@mui/material";
+import { Container, Col, Row } from "react-bootstrap";
 
 const laughStyle = {
   height: "30rem",
@@ -21,25 +22,30 @@ export default function About() {
   return (
     <div>
       <ThemeProvider theme={inputTheme}>
-        <div className="hero eyes">
+        <Row className="hero eyes">
           <h1 id="myh1">
             Hey! <br />I am Caoimhe Jyoti
           </h1>
-        </div>
-        <div>
-          <Typography>
-            {" "}
-            I am a colourful amalgamation of working in the events industry and
-            a love for puzzels. <br />
+        </Row>
+        <Row className="d-flex m-4 ">
+          <Typography id="intro">
+            I am a colourful amalgamation of creative arts and problem solver. I
+            may be a fledgling Fullstack developer but that is not stopping me!
+            I am a keen coder and cannot wait to get stuck into the next
+            project. <br />
             <br />
-            I am new to the work of Fullstack development but that is not
-            stopping me! I am a keen learner and cannot wait to get stuck into
-            my next projec.
+            Having worked in the Arts and Events industry in the UK, I moved to
+            Perth, Australia in 2019 just in time for the pandemic. Through the
+            chaos of settling in my new home and a worldwide lockdown, my
+            passion for coding was re-ignited.
             <br />
-            <br />
-            Lets make your ideas into a reality!
+            Having recently graduated from the UWA Full Stack Development
+            Bootcamp, I know there is still lots more to learn. This excites me
+            and I relish the opportunity to get stuck in.
+            <br />I am passionate about creating reality from imagination. So
+            what world shall we create next?
           </Typography>
-        </div>
+        </Row>
       </ThemeProvider>
     </div>
   );
