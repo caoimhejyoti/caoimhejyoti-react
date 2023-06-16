@@ -140,6 +140,10 @@ p {
   height: 3rem;
   display: flex;
 }
+.footer-icon{
+  height: 4rem;
+  display: flex;
+}
 .btn-img{
   height: 5rem;
   display: flex;

@@ -32,17 +32,21 @@ export default function About() {
             I am a colourful amalgamation of creative arts and problem solver. I
             may be a fledgling Fullstack developer but that is not stopping me!
             I am a keen coder and cannot wait to get stuck into the next
-            project. <br />
+            project.
+            <br />
             <br />
             Having worked in the Arts and Events industry in the UK, I moved to
             Perth, Australia in 2019 just in time for the pandemic. Through the
             chaos of settling in my new home and a worldwide lockdown, my
             passion for coding was re-ignited.
             <br />
+            <br />
             Having recently graduated from the UWA Full Stack Development
             Bootcamp, I know there is still lots more to learn. This excites me
             and I relish the opportunity to get stuck in.
-            <br />I am passionate about creating reality from imagination. So
+            <br />
+            <br />
+            I am passionate about creating reality from imagination. So
             what world shall we create next?
           </Typography>
         </Row>

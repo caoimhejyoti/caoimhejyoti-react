@@ -15,16 +15,16 @@ const bull = (
   </Box>
 );
 
-const frontEndCard = (
+const languages = (
   <React.Fragment>
     <ThemeProvider theme={inputTheme}>
       <CardContent>
-        <CardHeader title="Front End" className="text-center" />
+        <CardHeader title="Languages" className="text-center" />
         {/* <ListItem> */}
         <CardContent>
           <Typography paragraph>
-            {bull} HTML 5 {bull} CSS 3 {bull} JavaScript {bull} jQuery {bull}{" "}
-            React {bull} BootStrap {bull} Canva {bull}
+            {bull} HTML 5 {bull} CSS 3 {bull} JavaScript {bull} Markdown {bull}{" "}
+            Git {bull}
           </Typography>
         </CardContent>
         {/* </ListItemText> */}
@@ -34,15 +34,82 @@ const frontEndCard = (
   </React.Fragment>
 );
 
-const backEndCard = (
+const Frameworks = (
   <React.Fragment>
     <ThemeProvider theme={inputTheme}>
       <CardContent>
-        <CardHeader title="Back End" className="text-center" />
+        <CardHeader
+          title="Frameworks, Libraries and Platforms"
+          className="text-center"
+        />
         <CardContent>
           <Typography paragraph>
-            {bull} NodeJS {bull} Express {bull} MySQL {bull} MongoDB {bull} API{" "}
-            {bull} Git {bull} GitHub {bull}
+            {bull} BootStrap {bull} MUI {bull} Tailwinds {bull} ApolloGraphQL{" "}
+            {bull} Express {bull} Insomnia {bull} NPM {bull} jQuery {bull}{" "}
+            NodeJS {bull} React {bull} Webpack {bull} JWT {bull} MySQL {bull}{" "}
+            MongoDB {bull} Sequelize {bull} Heroku {bull} GitHub Pages {bull}{" "}
+            Visual Studio Code {bull} Google Drive {bull} Canva {bull} GitHub{" "}
+            {bull} Adobe Illustrator {bull} Adobe Indesign {bull} Adobe Premier
+            Pro {bull} Adobe Photoshop {bull}
+          </Typography>
+        </CardContent>
+      </CardContent>
+    </ThemeProvider>
+  </React.Fragment>
+);
+const Database = (
+  <React.Fragment>
+    <ThemeProvider theme={inputTheme}>
+      <CardContent>
+        <CardHeader title="Databases" className="text-center" />
+        <CardContent>
+          <Typography paragraph>
+            {bull} MySQL {bull} MongoDB {bull} Sequelize {bull}
+          </Typography>
+        </CardContent>
+      </CardContent>
+    </ThemeProvider>
+  </React.Fragment>
+);
+const Hosting = (
+  <React.Fragment>
+    <ThemeProvider theme={inputTheme}>
+      <CardContent>
+        <CardHeader title="Hosting" className="text-center" />
+        <CardContent>
+          <Typography paragraph>
+            {bull} Heroku {bull} GitHub Pages {bull}
+          </Typography>
+        </CardContent>
+      </CardContent>
+    </ThemeProvider>
+  </React.Fragment>
+);
+const Software = (
+  <React.Fragment>
+    <ThemeProvider theme={inputTheme}>
+      <CardContent>
+        <CardHeader title="Software and Tools" className="text-center" />
+        <CardContent>
+          <Typography paragraph>
+            {bull} Visual Studio Code {bull} Google Drive {bull} Canva {bull}{" "}
+            GitHub {bull} Adobe Illustrator {bull} Adobe Indesign {bull} Adobe
+            Premier Pro {bull} Adobe Photoshop {bull}
+          </Typography>
+        </CardContent>
+      </CardContent>
+    </ThemeProvider>
+  </React.Fragment>
+);
+const Download = (
+  <React.Fragment>
+    <ThemeProvider theme={inputTheme}>
+      <CardContent>
+        {/* <CardHeader title="Software and Tools" className="text-center" /> */}
+        <CardContent>
+          <Typography paragraph>
+            <p>Interested in a full resume? Download it here.</p>
+            <Button />
           </Typography>
         </CardContent>
       </CardContent>
@@ -57,13 +124,23 @@ export default function Resume() {
         <h1 className="myh1">Resume</h1>
       </Row>
       <Row className=" justify-content-center">
-        <Col className="card">{frontEndCard}</Col>
-        <Col className="card">{backEndCard}</Col>
+        <Col className="card">{languages}</Col>
+        <Col className="card">{Database}</Col>
       </Row>
-      <Row className=" justify-content-center m-2">
+      <Row className=" justify-content-center">
+        <Col className="card">{Hosting}</Col>
+        <Col className="card">{Software}</Col>
+      </Row>
+      <Row className=" justify-content-center">
+        <Col className="card">{Frameworks}</Col>
+      </Row>
+      <Row className=" justify-content-center">
+        <Col className="card">{Download}</Col>
+      </Row>
+      {/* <Row className=" justify-content-center m-2">
         <p>Interested in a full resume? Download it here.</p>
         <Button />
-      </Row>
+      </Row> */}
     </Container>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-import github from "./../assets/img/logos/GitHub-Mark-Light-120px-plus.png";
-import linkedin from "./../assets/img/logos/In-White-128-┬«@2x.png";
+import github from "./../assets/img/icons/inverted_Github.png";
+import linkedin from "./../assets/img/icons/inverted_LinkedIn.png";
 import instagram from "./../assets/img/logos/Instagram_Glyph_White.png";
+import invertedEmail from "./../assets/img/icons/inverted_email.png";
 
 export default function Footer() {
   return (
@@ -20,20 +21,20 @@ export default function Footer() {
         </Col>
         <Col>
           <a
+            href="mailto:caoimhejyoti@gmail.com"
+            target="blank"
+            className="footer-img"
+          >
+            <img src={invertedEmail} alt="Instagram logo" />
+          </a>
+        </Col>
+        <Col>
+          <a
             href="https://www.linkedin.com/in/caoimhe-young/"
             target="blank"
             className="footer-img"
           >
             <img src={linkedin} alt="Linkedin logo" />
-          </a>
-        </Col>
-        <Col>
-          <a
-            href="https://www.instagram.com/iamlcam/"
-            target="blank"
-            className="footer-img"
-          >
-            <img src={instagram} alt="Instagram logo" />
           </a>
         </Col>
       </Row>
