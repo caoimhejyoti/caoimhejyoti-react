@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "bb4eeae55601446cd957",
-    "url": "/caoimhejyoti-react/static/css/main.3f19bf4b.chunk.css"
+    "revision": "f55fa169a5a913202a8d",
+    "url": "/caoimhejyoti-react/static/css/main.1d402826.chunk.css"
   },
   {
-    "revision": "bb4eeae55601446cd957",
-    "url": "/caoimhejyoti-react/static/js/main.bb4eeae5.chunk.js"
+    "revision": "f55fa169a5a913202a8d",
+    "url": "/caoimhejyoti-react/static/js/main.f55fa169.chunk.js"
   },
   {
-    "revision": "4594e1d0bbfd72dc6b80",
-    "url": "/caoimhejyoti-react/static/css/1.f8350266.chunk.css"
+    "revision": "f5ba7aae6cc77be199ec",
+    "url": "/caoimhejyoti-react/static/css/1.9c083e82.chunk.css"
   },
   {
-    "revision": "4594e1d0bbfd72dc6b80",
-    "url": "/caoimhejyoti-react/static/js/1.4594e1d0.chunk.js"
+    "revision": "f5ba7aae6cc77be199ec",
+    "url": "/caoimhejyoti-react/static/js/1.f5ba7aae.chunk.js"
   },
   {
     "revision": "01ba510dc011f1719fd8",
@@ -22,6 +22,18 @@ self.__precacheManifest = [
   {
     "revision": "2e7720a54f1afe0af0996dd779f4bfe3",
     "url": "/caoimhejyoti-react/static/media/CaoimheJyoti - logo-v3.2e7720a5.png"
+  },
+  {
+    "revision": "ef97d1d06bf797f1bec40700c0ae27c5",
+    "url": "/caoimhejyoti-react/static/media/inverted_Github.ef97d1d0.png"
+  },
+  {
+    "revision": "4ebbc2f67d4c417420445b7497bdbf3f",
+    "url": "/caoimhejyoti-react/static/media/inverted_LinkedIn.4ebbc2f6.png"
+  },
+  {
+    "revision": "9a5df79a8b03107d311b2eb0e63304ec",
+    "url": "/caoimhejyoti-react/static/media/inverted_email.9a5df79a.png"
   },
   {
     "revision": "ed19fb9979f4f9e6c2b419a641b5aa1c",
@@ -64,7 +76,15 @@ self.__precacheManifest = [
     "url": "/caoimhejyoti-react/static/media/eyes-large.96479738.png"
   },
   {
-    "revision": "9f038f6e2bccdf04861ca185113a971a",
+    "revision": "e83a52527ff58970e726fda44370f34d",
+    "url": "/caoimhejyoti-react/static/media/LinkedIn.e83a5252.png"
+  },
+  {
+    "revision": "8ce67dd2d49d9703c927ad9ff81983d9",
+    "url": "/caoimhejyoti-react/static/media/email.8ce67dd2.png"
+  },
+  {
+    "revision": "fedeb8097a81f22d5ce1af9a3dbdca76",
     "url": "/caoimhejyoti-react/index.html"
   }
 ];
